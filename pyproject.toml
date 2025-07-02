@@ -1,0 +1,16 @@
+[project]
+name = "sc-judgement"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-core>=0.3.67",
+    "langchain-openai>=0.3.27",
+    "langchain-text-splitters>=0.3.8",
+    "pymongo>=4.13.2",
+    "pymupdf>=1.26.1",
+    "python-dotenv>=1.1.1",
+    "tqdm>=4.67.1",
+]
+
